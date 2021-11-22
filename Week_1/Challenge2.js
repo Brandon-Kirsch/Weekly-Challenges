@@ -4,6 +4,6 @@ Write a function redundant that takes in a string 'str' and returns a function t
 Note: Your function should return a 'function', not a string. 
 */
 
-function returnFunc(string) {
-    return () => {return string};
+function returnFunc(str) {
+    return () => {return str};
 }
